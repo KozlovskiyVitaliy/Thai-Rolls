@@ -1,0 +1,59 @@
+.headline {
+  background: url("../img/bg.png") no-repeat top center / cover;
+  color: #fff;
+  padding: 1em; 
+}
+
+footer {
+  background-color: #CC1563;
+  padding: 1em;
+}
+
+iframe {
+  width: 100%;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+  clear: both;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.section2 img {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  
+  .blurb, .ingredients {
+    float: left;
+    width: 50%;
+  }
+
+  #mc_embed_signup, .directions {
+    float: right;
+    width: 50%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+
+  .section2 img {
+    width: 30%;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 15px;
+  }
+}
